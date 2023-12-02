@@ -1,5 +1,6 @@
 import { Bodies, Body, Engine, Events, Render, Runner, World } from "matter-js"
 import { FRUITS_BASE } from "./fruits.js"
+import './style.css'
 
 let engine = Engine.create()
 let render = Render.create({
