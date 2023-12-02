@@ -121,6 +121,9 @@ Events.on(engine, "collisionStart", (event) => {
             )
 
             World.add(world, newBody)
+            if (newBody.index === 10) {
+                alert('you win')
+            }
 
         }
         if ( !disableAction && (collision.bodyA.name === "topLine" || collision.bodyB.name === "topLine")) {
